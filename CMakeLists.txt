@@ -62,7 +62,6 @@ include_directories(include
 
 set(SRC_FILES
         source/main.cpp
-        source/MidPoint/MidPoint.cpp
         )
 
 
