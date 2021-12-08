@@ -1,0 +1,10 @@
+^C:\USERS\ALPHO\DOWNLOADS\OGL-MASTER\EXTERNAL\GLFW-3.1.2\SRC\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/alpho/Downloads/ogl-master -BC:/Users/alpho/Downloads/ogl-master --check-stamp-file C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

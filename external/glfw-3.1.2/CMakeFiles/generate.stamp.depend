@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt
+C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/cmake_uninstall.cmake.in
+C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/docs/Doxyfile.in
+C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/src/glfw3.pc.in
+C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/src/glfw3Config.cmake.in
+C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/src/glfw_config.h.in
+D:/CMake/share/cmake-3.19/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/CMake/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+D:/CMake/share/cmake-3.19/Modules/CheckIncludeFile.c.in
+D:/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+D:/CMake/share/cmake-3.19/Modules/FindDoxygen.cmake
+D:/CMake/share/cmake-3.19/Modules/FindOpenGL.cmake
+D:/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.19/Modules/FindThreads.cmake
+D:/CMake/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake
+D:/CMake/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake

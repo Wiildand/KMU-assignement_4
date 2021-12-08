@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{925DB5F2-F2A7-3FCA-AE5E-F2CB58310791}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/alpho/Downloads/ogl-master -BC:/Users/alpho/Downloads/ogl-master --check-stamp-file C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;D:\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/alpho/Downloads/ogl-master -BC:/Users/alpho/Downloads/ogl-master --check-stamp-file C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;D:\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/alpho/Downloads/ogl-master -BC:/Users/alpho/Downloads/ogl-master --check-stamp-file C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;D:\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/alpho/Downloads/ogl-master -BC:/Users/alpho/Downloads/ogl-master --check-stamp-file C:/Users/alpho/Downloads/ogl-master/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;D:\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\ZERO_CHECK.vcxproj">
+      <Project>{5F5758D7-2D15-3E49-BB04-A0A4D4267587}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{553F730E-2B98-3F9B-9B8B-C436192DF7DA}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{8BBD5954-F833-30B6-A06C-4A51C0A5F5FA}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{6C7660E5-83EA-3970-AED3-78BEA8C2F090}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{7575EA9F-E34F-39D6-B28E-8FC6811C1B1F}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{38845F54-B2E6-37A0-BF78-9D93AC1FE674}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{D51EE530-D7E7-3536-A1FF-E2D98495097B}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{1A086DDD-D22B-3A68-AC95-606B5ED8BDAF}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{9ABBAA19-EE94-3FB1-A689-F5894190F4AA}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{BE64291D-2B2B-34A0-A70E-08D890749D6B}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{19CC1DD6-45A0-34A6-8829-AF25D6F4E73C}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{9FA84B4F-4AD9-3A98-BAC2-978CA7D99080}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{98772444-0690-3D93-A494-A33F0F1C77BB}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{3A8ACCE7-77C0-33EE-9609-435801510570}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{6549788D-FF47-3BBA-B84A-64C1ABB294D1}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{4DC3C819-FB4D-3E66-9576-7C68A26440B6}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{93297141-2DD3-3234-9849-E0B0ECC73591}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{0C2B260E-0C58-31D3-84B0-423C668979F9}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{35139E35-59BD-3B99-BFFE-8DE72FF731D1}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{2AA9256F-DD97-3A5A-BCF4-7B61E0959AF9}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{D921B8B1-4AA3-3890-9BFF-B36BFF13D980}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{106C8987-F910-3431-8AE2-649B789EC832}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{4C3B4942-D769-317E-8B3B-DE8ED9C3E4CC}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{14C0CFAA-85FF-3F7C-938E-4FD38830FC56}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alpho\Downloads\ogl-master\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{B639653F-3C5E-32D8-A232-F603C2A11C89}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
